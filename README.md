@@ -19,9 +19,9 @@ public class JvmComprehension {
 Общее описание алгоритма программы
 
    **1-Application ClassLoader загружает класс JvmComprehension.**
-      В Metaspace помещается мета-информация о классе JvmComprehension: имя, методы, поля.
-      В Stack Memory помещается фрейм метода main.
-      Переменная i также попадает в Stack Memory (фрейм main).
+     +В Metaspace помещается мета-информация о классе JvmComprehension: имя, методы, поля.
+     +В Stack Memory помещается фрейм метода main.
+     +Переменная i также попадает в Stack Memory (фрейм main).
       
    **2-Bootstrap ClassLoader/Platform ClassLoader загружают класс Object.**
       В Metaspace помещается мета-информация о классе Object: имя, методы, поля.
