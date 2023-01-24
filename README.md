@@ -1,7 +1,6 @@
 Код для исследования
 
-public class JvmComprehension {
-
+    public class JvmComprehension {
     public static void main(String[] args) {
         int i = 1;                      // 1
         Object o = new Object();        // 2
@@ -13,7 +12,6 @@ public class JvmComprehension {
         Integer uselessVar = 700;                   // 5
         System.out.println(o.toString() + i + ii);  // 6
     }
-}
 
 Общее описание алгоритма программы
 
